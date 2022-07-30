@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puntuación Hoteles</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="selection">
+    <label for="selroom"> Habitación</label>
+    <select name="selRoom" id="selRoom">
+        <option value="standar" selected>Standar</option>
+        <option value="juniorSuite">Junior Suite</option>
+        <option value="suite">Suite</option>
+    </select>
+
+
+    <label for="spa"> Spa</label>
+    <input type="checkbox" name="spa" id="spa">
+
+    <label for="typeRoom"> Tipo Habitación</label>
+    <select name="typeRoom" id="typeRoom">
+        <option value="individual" >Individual</option>
+        <option value="doble"selected>Doble</option>
+        <option value="triple">Triple</option>
+    </select>
+
+    <label for="noches"> Noches</label>
+    <input type="number" id="noches">
+
+    <label for="nochesParking"> Noches de parking</label>
+    <input type="number" id="parking">
+
+  <button id="total"> Calcular</button>
+
+  <label for="total"> Total</label>
+    <input id="resultado">
+</div>
+
+<script src="app.Js"></script>
+</body>
+
+</html>
